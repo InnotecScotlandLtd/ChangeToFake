@@ -1,0 +1,21 @@
+{
+    "name": "innotecscotlandltd/change-to-fake",
+    "description": "Change data to fake",
+    "require": {
+        "illuminate/support": "5.5.x|5.6.x|5.7.x|5.8.x",
+        "illuminate/console": "5.5.x|5.6.x|5.7.x|5.8.x",
+        "fzaninotto/faker": "~1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "InnotecScotlandLtd\\ChangeToFake\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "InnotecScotlandLtd\\ChangeToFake\\ServiceProvider"
+            ]
+        }
+    }
+}
