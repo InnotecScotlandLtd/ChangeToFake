@@ -42,7 +42,7 @@ class FakeData extends Command
         $field = $this->argument('field');
         $type = $this->argument('type');
 
-        $faker = Factory::create();
+        $faker = Factory::create('en_GB');
         $data = $entity::all();
 
         foreach ($data as $item) {
